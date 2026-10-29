@@ -1,0 +1,12 @@
+node_modules
+studio/.data/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+studio/web/lib/
+coverage/
+.pytest_cache/

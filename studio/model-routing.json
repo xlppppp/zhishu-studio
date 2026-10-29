@@ -1,0 +1,29 @@
+{
+  "provider": "gpt-ge",
+  "analysis": "gpt-6.1-sol",
+  "development": "gpt-6.1-sol",
+  "review": "gpt-6.1-sol",
+  "maxReviewRounds": 2,
+  "input": [
+    "text",
+    "image"
+  ],
+  "reviewMode": "focused",
+  "fallback": {
+    "from": "gpt-6.1-sol",
+    "to": "gpt-6-sol",
+    "primaryRetries": 1
+  },
+  "stageProviders": {
+    "analysis": "gpt-ge-default",
+    "development": "gpt-ge-codex",
+    "review": "gpt-ge-codex"
+  },
+  "reasoning": "high",
+  "assistantModels": [
+    "gpt-6.1-sol",
+    "gpt-6-astra",
+    "gpt-6-sol",
+    "claude-sonnet-5-5"
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "text": "页面为什么报错？"
+  },
+  {
+    "role": "assistant",
+    "text": "fixture answer: 页面为什么报错？; previous=0"
+  }
+]

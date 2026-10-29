@@ -1,0 +1,132 @@
+[
+  {
+    "id": "llm-pi-ai",
+    "config": {
+      "providers": {
+        "gpt-ge": {
+          "displayName": "GPT.GE",
+          "apiKeyEnv": "GPT_GE_API_KEY",
+          "api": "openai-completions",
+          "baseURL": "https://api.gpt.ge/v1",
+          "models": [
+            {
+              "id": "gpt-6.1-sol",
+              "reasoningEfforts": {
+                "off": null,
+                "high": "high"
+              }
+            },
+            {
+              "id": "gpt-6-sol",
+              "reasoningEfforts": {
+                "off": null,
+                "high": "high"
+              }
+            }
+          ],
+          "retryPolicy": {
+            "mode": "normal",
+            "maxRetries": 3,
+            "retryableCodes": [
+              "EMPTY_RESPONSE",
+              "RATE_LIMIT",
+              "SERVER",
+              "TIMEOUT",
+              "TRANSPORT"
+            ],
+            "backoff": {
+              "initialDelayMs": 120000,
+              "maxDelayMs": 300000,
+              "jitterRatio": 0
+            }
+          }
+        },
+        "gpt-ge-default": {
+          "displayName": "GPT.GE · default",
+          "apiKeyEnv": "GPT_GE_DEFAULT_API_KEY",
+          "api": "openai-completions",
+          "baseURL": "https://api.gpt.ge/v1",
+          "models": [
+            {
+              "id": "gpt-6.1-sol",
+              "reasoningEfforts": {
+                "off": null,
+                "high": "high"
+              }
+            },
+            {
+              "id": "gpt-6-sol",
+              "reasoningEfforts": {
+                "off": null,
+                "high": "high"
+              }
+            }
+          ],
+          "retryPolicy": {
+            "mode": "normal",
+            "maxRetries": 3,
+            "retryableCodes": [
+              "EMPTY_RESPONSE",
+              "RATE_LIMIT",
+              "SERVER",
+              "TIMEOUT",
+              "TRANSPORT"
+            ],
+            "backoff": {
+              "initialDelayMs": 120000,
+              "maxDelayMs": 300000,
+              "jitterRatio": 0
+            }
+          },
+          "reasoning": "high"
+        },
+        "gpt-ge-codex": {
+          "displayName": "GPT.GE · codex",
+          "apiKeyEnv": "GPT_GE_CODEX_API_KEY",
+          "api": "openai-completions",
+          "baseURL": "https://api.gpt.ge/v1",
+          "models": [
+            {
+              "id": "gpt-6.1-sol",
+              "reasoningEfforts": {
+                "off": null,
+                "high": "high"
+              }
+            },
+            {
+              "id": "gpt-6-sol",
+              "reasoningEfforts": {
+                "off": null,
+                "high": "high"
+              }
+            }
+          ],
+          "retryPolicy": {
+            "mode": "normal",
+            "maxRetries": 3,
+            "retryableCodes": [
+              "EMPTY_RESPONSE",
+              "RATE_LIMIT",
+              "SERVER",
+              "TIMEOUT",
+              "TRANSPORT"
+            ],
+            "backoff": {
+              "initialDelayMs": 120000,
+              "maxDelayMs": 300000,
+              "jitterRatio": 0
+            }
+          },
+          "reasoning": "high"
+        }
+      }
+    }
+  },
+  {
+    "id": "agent-default-model",
+    "config": {
+      "provider": "gpt-ge-codex",
+      "model": "gpt-6.1-sol"
+    }
+  }
+]

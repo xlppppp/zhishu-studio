@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/wshobson/agents",
+  "ref": "main",
+  "retrieved": "2026-10-21",
+  "adapted": false,
+  "sha256": {
+    "SKILL.md": "1f6166c23c0a0f32d703c19d84b3c30c2873daefb9e8732339a009934fa17013",
+    "references/details.md": "e8b19b192ab1e1e99a5d7fed285670c2cfc0f23877338efe68da56eeaeaf1649",
+    "LICENSE.txt": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746"
+  }
+}

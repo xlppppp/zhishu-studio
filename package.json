@@ -1,0 +1,22 @@
+{
+  "name": "zhishu-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local AI agent workbench powered by DeepSeek Harness",
+  "scripts": {
+    "start": "python3 studio/server.py",
+    "build": "node studio/build-web-assets.mjs",
+    "test": "node --test studio/tests/bridge.test.mjs studio/tests/documents.test.mjs studio/tests/web.test.mjs",
+    "test:python": "python3 -m unittest discover -s studio/tests -p \"test_*.py\""
+  },
+  "dependencies": {
+    "mermaid": "11.17.2"
+  },
+  "devDependencies": {
+    "jsdom": "29.1.1"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/ccheney/robust-skills",
+  "ref": "main",
+  "retrieved": "2026-10-19",
+  "adapted": false,
+  "sha256": {
+    "SKILL.md": "e0b739f3822782b1e8457070577811fdf7d6e9ba913087eff110c18b55284451",
+    "LICENSE.txt": "825d07f7ddb593f6c3a05f213a7cee5aa22bcb7f2fc549dc8d3b70d800409065",
+    "references/ARCHITECTURE.md": "73be1804b8a08094a5c7487d160c995ce2615c5a5d608a0a65ad233291069b21",
+    "references/DATA-CHARTS.md": "fad2a9b67ad0c47e06719250cd9c1c4a0a0f26227c0f250713485a3618ceff2e",
+    "references/FLOWCHARTS.md": "88421700b460cd3aed94ac97798967a615b7c3eddc2912e9ffada063f2f72b40",
+    "references/CHEATSHEET.md": "52d3265bffcfab9486d8a7a56ce09f756320aefc3eb2ec7f07734a67803d0825",
+    "references/ADVANCED.md": "f3bee186de6f44f8ad41d129ca2738b030831af6ff1b192444557049b6cc8cc4",
+    "references/CLASS-ER.md": "aca56197bdd2b6a7dab6fd8c7c3c0e7734bfda0eb8b6568a11e486c4fd7430ba",
+    "references/SEQUENCE.md": "fd9e109c16608e7f325e871aeb4f6d87c5cf18cd2ea10bbc7318b3b34000e108",
+    "references/STATE-JOURNEY.md": "d515738e40e07b5a130bf0bda1506987240d43385b81ce56532ad2853230a220"
+  }
+}
